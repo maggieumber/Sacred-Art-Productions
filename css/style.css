@@ -73,4 +73,12 @@ li {
 
 a {
   text-decoration: none;
+  border: 1px solid;
+  padding: 7px;
+  margin: 2.5px;
+  line-height: 2em;
+}
+
+strong {
+  font-weight: 700;
 }
