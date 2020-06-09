@@ -29,6 +29,7 @@ body {
   font-weight: 300;
   /* this sets the font size for the entire page */
   font-size: 20px;
+  padding: 50px;
 }
 
 nav,
@@ -38,8 +39,8 @@ footer {
 
 footer {
   position: fixed;
-  bottom: -5px;
-  left: -5px;
+  bottom: 50px;
+  left: -50px;
   width: 100%;
 }
 
@@ -51,6 +52,8 @@ h5,
 h6 {
   font-family: "Junction", sans-serif;
   font-style: normal;
+  padding: 25px;
+  border: 1px solid #000002;
 }
 
 h1 {
