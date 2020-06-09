@@ -1,18 +1,45 @@
+/* regular font */
+@font-face {
+  font-family: "Junction";
+  src: url("/fonts/junction-master/webfonts/junction-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+}
+
+/* italic font */
+@font-face {
+  font-family: "Junction";
+  src: url("/fonts/junction-master/webfonts/junction-light.woff") format("woff");
+  font-style: italic;
+  font-weight: 300;
+}
+
+/* headline & bold font */
+@font-face {
+  font-family: "Junction";
+  src: url("/fonts/junction-master/webfonts/junction-bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+}
+
 body {
   background-color: #f3f3f3;
   color: #000002;
+  font-family: "Junction", sans-serif;
+  font-weight: 300;
+  /* this sets the font size for the entire page */
   font-size: 20px;
 }
 
 nav,
 footer {
-  text-align: center;
+  text-align: right;
 }
 
 footer {
   position: fixed;
-  bottom: 0px;
-  left: 0px;
+  bottom: -5px;
+  left: -5px;
   width: 100%;
 }
 
@@ -22,10 +49,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Junction", sans-serif;
+  font-style: normal;
 }
 
 h1 {
+  background-color: #66cfd2;
+  font-weight: 700;
   font-size: 2em;
 }
 
