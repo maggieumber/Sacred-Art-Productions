@@ -28,7 +28,7 @@ body {
   font-family: "Junction", sans-serif;
   font-weight: 300;
   /* this sets the font size for the entire page */
-  font-size: 20px;
+  font-size: 18px;
   padding: 50px;
 }
 
@@ -57,7 +57,6 @@ h6 {
 }
 
 h1 {
-  background-color: #66cfd2;
   font-weight: 700;
   font-size: 2em;
 }
@@ -72,17 +71,22 @@ li {
 }
 
 p {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
   margin-bottom: 50px;
   /* border: 1px solid red; */
 }
 
 a {
   text-decoration: none;
+  padding: 10px 15px;
   border: 1px solid;
-  padding: 7px;
   margin: 2.5px;
-  line-height: 2em;
+  line-height: 2.5em;
+}
+
+.title {
+  background-color: #66cfd2;
+  padding: 10px 0;
 }
 
 strong {
