@@ -84,17 +84,31 @@ p {
   /* border: 1px solid red; */
 }
 
-a {
+a:link {
   text-decoration: none;
   padding: 10px 15px;
   border: 1px solid;
   margin: 2.5px;
   line-height: 2.5em;
+  color: #C97082;
 }
 
+/* This is for the head title link color */
 .title {
   background-color: #66cfd2;
   padding: 10px 0;
+}
+
+a:visited {
+  color: #C97082;
+}
+
+a:hover {
+  color: #2E629C;
+}
+
+a:active {
+  color: red;
 }
 
 strong {
