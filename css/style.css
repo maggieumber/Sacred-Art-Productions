@@ -118,3 +118,12 @@ strong {
 .bio img {
   border-radius: 5px;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {}
+
+.gallery-item .thumbnail {}
