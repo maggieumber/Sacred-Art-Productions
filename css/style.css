@@ -63,12 +63,12 @@ h6 {
   font-family: "Junction", sans-serif;
   font-style: normal;
   padding: 75px 25px 15px 25px;
-  border-bottom: 1px solid #000002;
 }
 
 h1 {
   font-weight: 700;
   font-size: 2em;
+  border-bottom: 1px solid #000002;
 }
 
 h2 {
@@ -143,12 +143,9 @@ figcaption {
 .friendsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10em 10em 10em;
+  grid-template-rows: 30em 30em 30em;
+  grid-auto-rows: 30em;
   grid-gap: 10px;
-}
-
-.friendsGrid h2 {
-  border: none;
 }
 
 @media all and (max-device-width: 480px) {
