@@ -130,3 +130,30 @@ strong {
 .gallery-item {}
 
 .gallery-item .thumbnail {}
+
+figcaption {
+  width: 300px;
+  padding: 20px;
+}
+
+.bio a {
+  margin: 100px;
+}
+
+.friendsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.friendsGrid h2 {
+  border: none;
+}
+
+@media all and (max-device-width: 480px) {
+
+  /* Your CSS rules for your mobile phones here */
+  /* img {
+    display: block;
+  } */
+}
