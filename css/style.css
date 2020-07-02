@@ -143,6 +143,7 @@ figcaption {
 .friendsGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10em 10em 10em;
   grid-gap: 10px;
 }
 
