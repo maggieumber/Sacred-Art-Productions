@@ -49,9 +49,11 @@ footer {
 
 footer {
   position: fixed;
-  bottom: 50px;
-  left: -50px;
-  width: 100%;
+  bottom: 25px;
+  /* bottom was 50px */
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 h1,
