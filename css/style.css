@@ -151,15 +151,14 @@ figcaption {
 }
 
 .gallery-item .thumbnail {
-  border: 2px solid #000002;
+  border: 1px solid #000002;
   border-radius: 5px;
   width: 291px;
 }
 
 .friendsGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 30em 30em 30em;
+  grid-template: 30em 30em 30em / 1fr 1fr 1fr;
   grid-auto-rows: 30em;
   grid-gap: 10px;
 }
