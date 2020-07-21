@@ -118,18 +118,15 @@ strong {
   font-weight: 700;
 }
 
+/* images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .bio img {
   border-radius: 5px;
 }
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery-item {}
-
-.gallery-item .thumbnail {}
 
 figcaption {
   width: 300px;
@@ -138,6 +135,23 @@ figcaption {
 
 .bio a {
   margin: 100px;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.gallery-item {
+  margin: 10px;
+}
+
+.gallery-item .thumbnail {
+  border: 2px solid #000002;
+  border-radius: 5px;
+  width: 291px;
 }
 
 .friendsGrid {
