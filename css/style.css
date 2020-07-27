@@ -158,8 +158,8 @@ figcaption {
 
 .friendsGrid {
   display: grid;
-  grid-template: repeat(3, 30em) / repeat(auto-fit, minmax(15em, 1fr));
-  grid-auto-rows: 30em;
+  grid-template: repeat(3, 32em) / repeat(auto-fit, minmax(15em, 1fr));
+  grid-auto-rows: 32em;
   grid-gap: 10px;
 }
 
