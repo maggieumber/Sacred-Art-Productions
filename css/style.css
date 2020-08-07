@@ -50,7 +50,6 @@ footer {
 footer {
   position: fixed;
   bottom: 25px;
-  /* bottom was 50px */
   width: 80%;
   max-width: 1000px;
   margin: auto;
@@ -86,7 +85,6 @@ p {
   padding: 50px 0 25px 0;
   text-align: justify;
   line-height: 1.5em;
-  /* border: 1px solid red; */
 }
 
 a:link {
@@ -139,6 +137,7 @@ figcaption {
   margin: 15px;
 }
 
+/* Art Flexbox */
 .gallery {
   margin-top: 20px;
   display: flex;
@@ -156,6 +155,7 @@ figcaption {
   width: 291px;
 }
 
+/* Members Grid */
 .friendsGrid {
   display: grid;
   grid-template: repeat(3, 33em) / repeat(auto-fit, minmax(15em, 1fr));
