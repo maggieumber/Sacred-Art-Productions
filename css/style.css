@@ -166,7 +166,7 @@ figcaption {
 .litGrid {
   display: grid;
   grid-template: repeat(3, 367px) / repeat(3, 291px);
-  grid-auto-rows: 3em;
+  grid-auto-rows: 367px;
   grid-gap: 30px;
 }
 
