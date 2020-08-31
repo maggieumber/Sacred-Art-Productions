@@ -152,13 +152,11 @@ figcaption {
 .gallery-item .thumbnail {
   border: 1px solid #000002;
   border-radius: 5px;
-  width: 291px;
 }
 
 .gallery-item .bigthumbail {
   border: 1px solid #000002;
   border-radius: 5px;
-  width: 450px;
 }
 
 /* Members Grid */
