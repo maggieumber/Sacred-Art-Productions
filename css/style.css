@@ -154,11 +154,6 @@ figcaption {
   border-radius: 5px;
 }
 
-.gallery-item .bigthumbail {
-  border: 1px solid #000002;
-  border-radius: 5px;
-}
-
 /* Members Grid */
 .friendsGrid {
   display: grid;
