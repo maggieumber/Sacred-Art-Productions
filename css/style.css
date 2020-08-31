@@ -155,6 +155,12 @@ figcaption {
   width: 291px;
 }
 
+.gallery-item .bigthumbail {
+  border: 1px solid #000002;
+  border-radius: 5px;
+  width: 450px;
+}
+
 /* Members Grid */
 .friendsGrid {
   display: grid;
