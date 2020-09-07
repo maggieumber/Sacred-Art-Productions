@@ -63,6 +63,7 @@ h5,
 h6 {
   font-family: "Junction", sans-serif;
   font-style: normal;
+  line-height: 1.5em;
   padding: 75px 25px 15px 25px;
 }
 
@@ -84,7 +85,7 @@ li {
 p {
   padding: 50px 0 25px 0;
   text-align: justify;
-  line-height: 1.5em;
+  line-height: 2em;
 }
 
 time {
