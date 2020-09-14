@@ -186,10 +186,11 @@ article figcaption {
 .responsive-vid video {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 30px;
+  left: 10px;
+  width: 92%;
+  height: 92%;
+  border-radius: 5px;
+  border: 1px solid #000002;
 }
 
 @media all and (max-device-width: 480px) {
