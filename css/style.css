@@ -178,17 +178,17 @@ article figcaption {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
-  padding-top: 25px;
+  padding-top: 0;
   height: 0;
 }
 
 .responsive-vid iframe,
 .responsive-vid video {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 10px;
-  width: 92%;
-  height: 92%;
+  width: 93%;
+  height: 93%;
   border-radius: 5px;
   border: 1px solid #000002;
 }
