@@ -131,10 +131,6 @@ img {
   height: auto;
 }
 
-/* .bio img {
-  border-radius: 5px;
-} */
-
 figcaption {
   width: 300px;
   padding: 20px;
@@ -146,6 +142,23 @@ article figcaption {
 
 .friendsGrid .bio a {
   margin: 2.5px;
+}
+
+/* Nav Flexbox */
+.navFlex {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.navFlexItem {
+  margin: 10px;
+}
+
+.navFlexItem .fingernail {
+  /* border: 1px solid #000002;
+  border-radius: 5px; */
 }
 
 /* Art Flexbox */
@@ -191,12 +204,4 @@ article figcaption {
   height: 93%;
   border-radius: 5px;
   border: 1px solid #000002;
-}
-
-@media all and (max-device-width: 480px) {
-
-  /* Your CSS rules for your mobile phones here */
-  /* img {
-    display: block;
-  } */
 }
