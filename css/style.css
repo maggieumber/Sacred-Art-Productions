@@ -144,6 +144,14 @@ article figcaption {
   margin: 2.5px;
 }
 
+.litParagraph {
+  background-color: lightgray;
+  padding: 20px;
+  line-height: 1.1em;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Nav Flexbox */
 .navFlex {
   margin-top: 20px;
