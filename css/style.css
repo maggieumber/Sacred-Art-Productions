@@ -47,12 +47,24 @@ footer {
   text-align: right;
 }
 
+header {
+  position: fixed;
+  top: 25px;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
 footer {
   position: fixed;
   bottom: 25px;
   width: 80%;
   max-width: 1000px;
   margin: auto;
+}
+
+small {
+  font-size: small;
 }
 
 h1,
