@@ -159,7 +159,8 @@ article figcaption {
 .litParagraphGray {
   background-color: lightgray;
   padding: 20px;
-  line-height: 1.1em;
+  font-size: .9em;
+  line-height: 1.5em;
   max-width: 100%;
   height: auto;
 }
@@ -168,7 +169,8 @@ article figcaption {
   background-color: #000002;
   color: #f3f3f3;
   padding: 20px;
-  line-height: 1.1em;
+  font-size: .9em;
+  line-height: 1.5em;
   max-width: 100%;
   height: auto;
 }
@@ -177,7 +179,8 @@ article figcaption {
   background-color: #C97082;
   color: #f3f3f3;
   padding: 20px;
-  line-height: 1.1em;
+  font-size: .9em;
+  line-height: 1.5em;
   max-width: 100%;
   height: auto;
 }
