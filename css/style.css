@@ -87,6 +87,10 @@ h6 {
 h1 {
   font-weight: 700;
   font-size: 2em;
+}
+
+.caps {
+  text-transform: uppercase;
   border-bottom: 1px solid #000002;
 }
 
