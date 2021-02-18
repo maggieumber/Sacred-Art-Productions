@@ -92,10 +92,11 @@ h1 {
 .caps {
   text-transform: uppercase;
   border-bottom: 1px solid #000002;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.5em;
 }
 
 ul,
